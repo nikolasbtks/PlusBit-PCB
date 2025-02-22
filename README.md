@@ -2,7 +2,7 @@
 
 ## Description
 
-This project demonstrates a custom 2-layer PCB containing the ATmega-4809 microcontroller. This board can be used for embedded development applications using multiple peripherals.
+This project demonstrates a custom 4-layer PCB containing the STM32F446RCT6 and ESP32-WROOM-32E microcontrollers. This board can be used for embedded development applications using multiple peripherals.
 
 ## Components
 
@@ -34,12 +34,10 @@ This project is currently in **testing phase**. The provided documentation is sh
 
 ## Schematic and PCB Design
 
-The board was designed using KiCad. Files from the PCB design can be found in the **hardware** folder for board manufacture. This folder includes:
+The board was designed using Altium Designer. Files from the PCB design can be found in the **hardware** folder for board manufacture. This folder includes:
 
 - PCB Schematic 
 - PCB Layout
-- Gerber files
-- Assembly files
 
 Below is a 3D render of the PCB design:
 
@@ -50,8 +48,7 @@ Below is a 3D render of the PCB design:
    - Use a USB Type-C cable to power the board.
      
 2. Microcontroller Programming:
-   - Use Arduino IDE or any other platform to program the microcontroller.
-   - Use a debugger with a UPDI header.
+   - Use STM32CubeIDE or any other platform to program the microcontroller.
 
 3. Peripheral Access
-   - Use the GPIO, I2C, SPI and USART headers to connect peripherals.
+   - Use the GPIO or SPI headers to connect peripherals.
