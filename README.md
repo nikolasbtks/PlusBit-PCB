@@ -51,7 +51,7 @@ The board was designed using Altium Designer. Files from the PCB design can be f
 - PCB Schematic 
 - PCB Layout
 - Gerber Files
-- Bill of Materials
+- Assembly Files
 
 Below is a 3D render of the PCB design:
 
