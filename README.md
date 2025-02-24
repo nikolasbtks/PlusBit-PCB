@@ -29,17 +29,6 @@ This project demonstrates a custom 4-layer PCB containing the STM32F446RCT6 and 
    - 256 Kbit Ferroelectric RAM storage
    - Non-volatile memory storage
 
-9. Security: ATECC608B-MAHDA-S
-   - Hardware-based encryption and storage for keys
-   - Support for cryptographic authentication
-  
-10. External Flash Storage: SST26VF016BT-104I/SM
-   - 16 Mbit Flash Memory
-   - High-speed read operations
-
-11. Sensor: MCP9808-E/MS
-   - Digital temperature output
-
 ## Disclaimer
 
 This project is currently in **testing phase**. The provided documentation is shared for prototyping and learning purposes. If you choose to manufacture and use the board, please proceed with care, as it has not yet been fully validated.
