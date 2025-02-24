@@ -18,26 +18,26 @@ This project demonstrates a custom 4-layer PCB containing the STM32F446RCT6 and 
    - USB Type-C for data and power 
    - TPD2E001DRSR for ESD protection
 
-5. Power Supply: TPS62740DSSR
+Power Supply: TPS62740DSSR
    - Step-down regulator for stable 3.3V output
    - Support input voltage 2.2V to 5.5V
   
-7. Headers:
+Headers:
    - GPIO, and SPI headers for external connections
 
-8. Memory: FM24W256-G
+Memory: FM24W256-G
       - 256 Kbit Ferroelectric RAM storage
       - Non-volatile memory storage
 
-9. Security: ATECC608B-MAHDA-S
+Security: ATECC608B-MAHDA-S
    - Hardware-based encryption and storage for keys
    - Support for cryptographic authentication
   
-10. External Flash Storage: SST26VF016BT-104I/SM
+External Flash Storage: SST26VF016BT-104I/SM
    - 16 Mbit Flash Memory
    - High-speed read operations
 
-11. Sensor: MCP9808-E/MS
+Sensor: MCP9808-E/MS
    - Digital temperature output
      
 ## Disclaimer
