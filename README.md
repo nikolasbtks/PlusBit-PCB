@@ -55,7 +55,7 @@ The board was designed using Altium Designer. Files from the PCB design can be f
 
 Below is a 3D render of the PCB design:
 
-![image](https://github.com/user-attachments/assets/88cfc59f-c75a-44ef-bc7e-019d2a12246a)
+![image](https://github.com/user-attachments/assets/e9248570-ea6a-4b46-a66e-19c90ab99935)
 
 ## How to Use
 
