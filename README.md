@@ -6,27 +6,39 @@ This project demonstrates a custom 4-layer PCB containing the STM32F446RCT6 and 
 
 ## Components
 
-1. Microcontroller: ATmega4809
-   - 6 KB SRAM and 48 MB Flash
-   - 20 MHz clock speed 
-   
-3. USB Connectivity:
-   - USB Type-C for data and power 
-   - USBLC6-2SC6 for ESD protection
-
-4. Power Supply: LM3670MF-3.3 
-   - Voltage regulator for stable 3.3V output
+1. Microcontroller: STM32F446RCT6
+   - 256 KB SRAM and 512 KB Flash
+   - Up to 180 MHz clock speed
   
-5. Headers:
-   - UPDI header for debugging
-   - GPIO, I2C, SPI and USART headers for external connections
+3. Wireless Microcontroller: ESP32-WROOM-32E
+   - 520 KB SRAM and 4 MB Flash
+   - Wi-Fi and Bluetooth
+   
+4. USB Connectivity:
+   - USB Type-C for data and power 
+   - TPD2E001DRSR for ESD protection
 
-6. Memory: AT24CS32-STUM
-   - 32 Kbit of EEPROM storage
-   - Non-volatile memory storage expansion
+5. Power Supply: TPS62740DSSR
+   - Step-down regulator for stable 3.3V output
+   - Support input voltage 2.2V to 5.5V
+  
+7. Headers:
+   - GPIO, and SPI headers for external connections
 
-8. Sensor: TC1047xNB
-   - Analog voltage output, propotional to temperature
+8. Memory: FM24W256-G
+   - 256 Kbit Ferroelectric RAM storage
+   - Non-volatile memory storage
+
+9. Security: ATECC608B-MAHDA-S
+   - Hardware-based encryption and storage for keys
+   - Support for cryptographic authentication
+  
+10. External Flash Storage: SST26VF016BT-104I/SM
+   - 16 Mbit Flash Memory
+   - High-speed read operations
+
+11. Sensor: MCP9808-E/MS
+   - Digital temperature output
 
 ## Disclaimer
 
@@ -38,9 +50,12 @@ The board was designed using Altium Designer. Files from the PCB design can be f
 
 - PCB Schematic 
 - PCB Layout
+- Gerber Files
+- Bill of Materials
 
 Below is a 3D render of the PCB design:
 
+![image](https://github.com/user-attachments/assets/88cfc59f-c75a-44ef-bc7e-019d2a12246a)
 
 ## How to Use
 
