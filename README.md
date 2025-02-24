@@ -26,8 +26,8 @@ This project demonstrates a custom 4-layer PCB containing the STM32F446RCT6 and 
    - GPIO, and SPI headers for external connections
 
 6. Memory: FM24W256-G
-      - 256 Kbit Ferroelectric RAM storage
-      - Non-volatile memory storage
+   - 256 Kbit Ferroelectric RAM storage
+   - Non-volatile memory storage
 
 7. Security: ATECC608B-MAHDA-S
    - Hardware-based encryption and storage for keys
