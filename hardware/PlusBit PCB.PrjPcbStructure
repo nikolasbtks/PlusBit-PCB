@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=PlusBit_ExtraMemory.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=PlusBit_ExtraMemory.SchDoc|FileName=PlusBit_ExtraModule.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=PlusBit_ExtraMemory.SchDoc|FileName=PlusBit_MCU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=PlusBit_ExtraMemory.SchDoc|FileName=PlusBit_PowerSupply.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=PlusBit_ExtraMemory.SchDoc|FileName=PlusBit_Sensors.SchDoc|SheetNumber=5
